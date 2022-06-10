@@ -1,0 +1,41 @@
+#container {
+  width: 50%;
+  margin: 5% auto;
+}
+
+input {
+  width: 30%;
+  height: 40px;
+  padding-left: 20px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: medium;
+  background-color: transparent;
+}
+
+input:focus {
+  background-color: gray;
+  opacity: 0.7;
+  color: azure;
+  border-color: aliceblue;
+}
+
+.submit-button {
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.danger {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(187, 56, 56);
+}
+
+.winner {
+  color: white;
+  font-weight: 700;
+  background-color: rgb(2, 71, 6);
+}
